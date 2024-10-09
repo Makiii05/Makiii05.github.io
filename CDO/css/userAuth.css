@@ -1,0 +1,17 @@
+html, body {
+    font-family: Arial;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-image: url(../pics/bg2.png);
+    background-size: cover;
+}
+.log {
+    width: 38%;
+    height: 100%;
+}
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
